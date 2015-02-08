@@ -21,6 +21,10 @@
     string = [string stringByReplacingOccurrencesOfString:@"&Euml;" withString:@"Ë"];
     string = [string stringByReplacingOccurrencesOfString:@"&Ccedil;" withString:@"Ç"];
     string = [string stringByReplacingOccurrencesOfString:@"&ccedil;" withString:@"ç"];
+    string = [string stringByReplacingOccurrencesOfString:@"&Uuml;" withString:@"Ü"];
+    string = [string stringByReplacingOccurrencesOfString:@"&uuml;" withString:@"ü"];
+    string = [string stringByReplacingOccurrencesOfString:@"&Ouml;" withString:@"Ö"];
+    string = [string stringByReplacingOccurrencesOfString:@"&ouml;" withString:@"ö"];
     string = [string stringByReplacingOccurrencesOfString:@"&rarr;" withString:@"→"];
     string = [string stringByReplacingOccurrencesOfString:@"&larr;" withString:@"←"];
     string = [string stringByReplacingOccurrencesOfString:@"&darr;" withString:@"↓"];
@@ -28,7 +32,7 @@
     string = [string stringByReplacingOccurrencesOfString:@"&hellip;" withString:@"…"];
     string = [string stringByReplacingOccurrencesOfString:@"&infin;" withString:@"∞"];
     string = [string stringByReplacingOccurrencesOfString:@"&mu;" withString:@"μ"];
-    string = [string stringByReplacingOccurrencesOfString:@"&#039;" withString:@"'"];
+    string = [string stringByReplacingOccurrencesOfString:@"&#39;" withString:@"'"];
     string = [string stringByReplacingOccurrencesOfString:@"&ldquo;" withString:@"“"];
     string = [string stringByReplacingOccurrencesOfString:@"&rdquo;" withString:@"”"];
     string = [string stringByReplacingOccurrencesOfString:@"&quot;" withString:@"“"];

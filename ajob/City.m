@@ -10,9 +10,9 @@
 
 @implementation City
 
-@synthesize com_name,ads_name,job_desc;
+@synthesize com_name,ads_name,job_desc,qua,logo;
 
--(id)initWithComName: (NSString *)ComName andAdsName: (NSString *)AdsName andJobDesc: (NSString *)JobDesc;
+-(id)initWithComName: (NSString *)ComName andAdsName: (NSString *)AdsName andJobDesc: (NSString *)JobDesc andQua:(NSString *) Qua andLogo:(NSString *)Logo;
 {
     self  = [super init];
     if (self)
@@ -20,7 +20,8 @@
         com_name = ComName;
         ads_name = AdsName;
         job_desc = JobDesc;
-        
+        qua = Qua;
+        logo = Logo;
     }
     
     return self;

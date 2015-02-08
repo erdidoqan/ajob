@@ -15,7 +15,7 @@
 @end
 
 @implementation DetailViewController
-@synthesize AdsNameLabel,ComNameLabel,JobDescLabel,currentCity;
+@synthesize AdsNameLabel,ComNameLabel,JobDescLabel,currentCity,QuaLabel,LogoLabel;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -50,9 +50,12 @@
     AdsNameLabel.text = currentCity.ads_name;
     ComNameLabel.text = currentCity.com_name;
     JobDescLabel.text = [HTMLEntityDecode htmlEntityDecode:[currentCity.job_desc stringByStrippingHTML]];
+    QuaLabel.text = [HTMLEntityDecode htmlEntityDecode:[currentCity.qua stringByStrippingHTML]];
     
+    NSString *InsLink = @"http://institutional.njepuneere.com/";
+    NSString *LogoLink = [InsLink stringByAppendingString:currentCity.logo];
+    LogoLabel.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[LogoLink stringByStrippingLOGO]]]];
 }
-
 
 
 

@@ -13,8 +13,11 @@
 @property (strong, nonatomic) NSString * com_name;
 @property (strong, nonatomic) NSString * ads_name;
 @property (strong, nonatomic) NSString * job_desc;
+@property (strong, nonatomic) NSString * qua;
+@property (strong, nonatomic) NSString * logo;
 
--(id)initWithComName: (NSString *)ComName andAdsName: (NSString *)AdsName andJobDesc: (NSString *)JobDesc;
+
+-(id)initWithComName: (NSString *)ComName andAdsName: (NSString *)AdsName andJobDesc: (NSString *)JobDesc andQua:(NSString *)Qua andLogo:(NSString *)Logo;
 
 
 @end

@@ -15,7 +15,8 @@
 @property (nonatomic, strong) IBOutlet UILabel * AdsNameLabel;
 @property (nonatomic, strong) IBOutlet UILabel * ComNameLabel;
 @property (nonatomic, strong) IBOutlet UITextView * JobDescLabel;
-
+@property (nonatomic, strong) IBOutlet UITextView * QuaLabel;
+@property (nonatomic, strong) IBOutlet UIImageView * LogoLabel;
 
 @property(nonatomic, strong) City * currentCity;
 

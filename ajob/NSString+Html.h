@@ -10,5 +10,5 @@
 
 @interface NSString (HTML)
 -(NSString *) stringByStrippingHTML;
-
+-(NSString *) stringByStrippingLOGO;
 @end

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E34A6831A8739470013C80A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E34A6811A8739470013C80A /* LaunchScreen.xib */; };
+		2E34A6851A87B8590013C80A /* mavibuton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E34A6841A87B8590013C80A /* mavibuton.png */; };
+		2E34A6871A87BF2E0013C80A /* njep.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E34A6861A87BF2E0013C80A /* njep.png */; };
+		2E34A6891A87C04D0013C80A /* app.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E34A6881A87C04D0013C80A /* app.jpg */; };
 		2E7E8D831A85BE9C00390669 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E8D821A85BE9C00390669 /* main.m */; };
 		2E7E8D861A85BE9C00390669 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E8D851A85BE9C00390669 /* AppDelegate.m */; };
 		2E7E8D891A85BE9D00390669 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E8D881A85BE9D00390669 /* ViewController.m */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E34A6821A8739470013C80A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2E34A6841A87B8590013C80A /* mavibuton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mavibuton.png; sourceTree = "<group>"; };
+		2E34A6861A87BF2E0013C80A /* njep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = njep.png; sourceTree = "<group>"; };
+		2E34A6881A87C04D0013C80A /* app.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = app.jpg; sourceTree = "<group>"; };
 		2E7E8D7D1A85BE9C00390669 /* ajob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ajob.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E7E8D811A85BE9C00390669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E7E8D821A85BE9C00390669 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -109,6 +117,7 @@
 				2E7E8D871A85BE9C00390669 /* ViewController.h */,
 				2E7E8D881A85BE9D00390669 /* ViewController.m */,
 				2E7E8D8A1A85BE9D00390669 /* Main.storyboard */,
+				2E34A6811A8739470013C80A /* LaunchScreen.xib */,
 				2E7E8D8D1A85BE9D00390669 /* Images.xcassets */,
 				2E7E8D801A85BE9C00390669 /* Supporting Files */,
 				2E7E8DA61A85C08500390669 /* CitiesTableViewController.h */,
@@ -128,6 +137,9 @@
 		2E7E8D801A85BE9C00390669 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E34A6881A87C04D0013C80A /* app.jpg */,
+				2E34A6861A87BF2E0013C80A /* njep.png */,
+				2E34A6841A87B8590013C80A /* mavibuton.png */,
 				2E7E8DB51A866C6900390669 /* 360 Group shpk-38 (1).jpg */,
 				2E7E8DB31A866AA500390669 /* fb_njepuneere.png */,
 				2E7E8DB71A86708000390669 /* buton.png */,
@@ -240,6 +252,10 @@
 				2E7E8DAF1A85D9AF00390669 /* logo.png in Resources */,
 				2E7E8DB81A86708000390669 /* buton.png in Resources */,
 				2E7E8DB61A866C6900390669 /* 360 Group shpk-38 (1).jpg in Resources */,
+				2E34A6851A87B8590013C80A /* mavibuton.png in Resources */,
+				2E34A6891A87C04D0013C80A /* app.jpg in Resources */,
+				2E34A6831A8739470013C80A /* LaunchScreen.xib in Resources */,
+				2E34A6871A87BF2E0013C80A /* njep.png in Resources */,
 				2E7E8DAD1A85D93700390669 /* hero-bg.jpg in Resources */,
 				2E7E8DB41A866AA500390669 /* fb_njepuneere.png in Resources */,
 				2E7E8D8E1A85BE9D00390669 /* Images.xcassets in Resources */,
@@ -290,6 +306,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2E34A6811A8739470013C80A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E34A6821A8739470013C80A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
 		2E7E8D8A1A85BE9D00390669 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -133,8 +133,10 @@
         NSString * ComName = [[jsonArray objectAtIndex:i] objectForKey:@"com_name"];
         NSString * AdsName = [[jsonArray objectAtIndex:i] objectForKey:@"ads_name"];
         NSString * JobDesc = [[jsonArray objectAtIndex:i] objectForKey:@"job_desc"];
+        NSString * Qua = [[jsonArray objectAtIndex:i] objectForKey:@"qua"];
+        NSString * Logo = [[jsonArray objectAtIndex:i] objectForKey:@"logo"];
         
-        [citiesArray addObject:[[City alloc]initWithComName:ComName andAdsName:AdsName andJobDesc:JobDesc]];
+        [citiesArray addObject:[[City alloc]initWithComName:ComName andAdsName:AdsName andJobDesc:JobDesc andQua:Qua andLogo:Logo]];
     }
     
     [self.tableView reloadData];
