@@ -7,6 +7,8 @@
 //
 
 #import "DetailViewController.h"
+#import "NSString+HTML.h"
+#import "HTMLEntityDecode.h"
 
 @interface DetailViewController ()
 
@@ -47,16 +49,11 @@
 {
     AdsNameLabel.text = currentCity.ads_name;
     ComNameLabel.text = currentCity.com_name;
-    JobDescLabel.text = currentCity.job_desc;
+    JobDescLabel.text = [HTMLEntityDecode htmlEntityDecode:[currentCity.job_desc stringByStrippingHTML]];
+    
 }
 
--(NSString *) stringByStrippingHTML
-{
-    NSRange r;
-    NSString s = [[self copy] autorelease];
-    while ((r = [s rangeOfString:@"<[^>]+>" options:NSRegularExpressionSearch]).location != NSNotFound)
-        s = [s stringByReplacingCharactersInRange:r withString:@""];
-    return s;
-}
+
+
 
 @end

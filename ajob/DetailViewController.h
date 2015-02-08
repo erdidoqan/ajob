@@ -24,6 +24,5 @@
 
 -(void)getCity:(id)cityObject;
 -(void)setLabels;
--(void)stringByStrippingHTML;
 
 @end

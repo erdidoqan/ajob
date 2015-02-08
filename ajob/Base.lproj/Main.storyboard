@@ -106,7 +106,7 @@
                     <connections>
                         <outlet property="AdsNameLabel" destination="Anc-oC-MNu" id="Ex7-ev-Mpv"/>
                         <outlet property="ComNameLabel" destination="fgo-Ly-AGe" id="szU-zG-vJn"/>
-                        <outlet property="JobDescLabel" destination="Dxb-vy-aNc" id="byh-PE-t1i"/>
+                        <outlet property="JobDescLabel" destination="Dxb-vy-aNc" id="YqH-nF-JtZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xnF-Qu-li6" userLabel="First Responder" sceneMemberID="firstResponder"/>

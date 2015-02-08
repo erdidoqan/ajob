@@ -21,6 +21,8 @@
 		2E7E8DB41A866AA500390669 /* fb_njepuneere.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E8DB31A866AA500390669 /* fb_njepuneere.png */; };
 		2E7E8DB61A866C6900390669 /* 360 Group shpk-38 (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E8DB51A866C6900390669 /* 360 Group shpk-38 (1).jpg */; };
 		2E7E8DB81A86708000390669 /* buton.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E7E8DB71A86708000390669 /* buton.png */; };
+		2EAA54401A872481006EFE8D /* NSString+Html.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAA543F1A872481006EFE8D /* NSString+Html.m */; };
+		2EAA54431A872C28006EFE8D /* HTMLEntityDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAA54421A872C28006EFE8D /* HTMLEntityDecode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		2E7E8DB31A866AA500390669 /* fb_njepuneere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_njepuneere.png; sourceTree = "<group>"; };
 		2E7E8DB51A866C6900390669 /* 360 Group shpk-38 (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "360 Group shpk-38 (1).jpg"; sourceTree = "<group>"; };
 		2E7E8DB71A86708000390669 /* buton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buton.png; sourceTree = "<group>"; };
+		2EAA543E1A872481006EFE8D /* NSString+Html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Html.h"; sourceTree = "<group>"; };
+		2EAA543F1A872481006EFE8D /* NSString+Html.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Html.m"; sourceTree = "<group>"; };
+		2EAA54411A872C28006EFE8D /* HTMLEntityDecode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLEntityDecode.h; sourceTree = "<group>"; };
+		2EAA54421A872C28006EFE8D /* HTMLEntityDecode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLEntityDecode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,10 @@
 				2E7E8DAA1A85C22200390669 /* City.m */,
 				2E7E8DB01A85DA6800390669 /* DetailViewController.h */,
 				2E7E8DB11A85DA6800390669 /* DetailViewController.m */,
+				2EAA543E1A872481006EFE8D /* NSString+Html.h */,
+				2EAA543F1A872481006EFE8D /* NSString+Html.m */,
+				2EAA54411A872C28006EFE8D /* HTMLEntityDecode.h */,
+				2EAA54421A872C28006EFE8D /* HTMLEntityDecode.m */,
 			);
 			path = ajob;
 			sourceTree = "<group>";
@@ -251,7 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E7E8DAB1A85C22200390669 /* City.m in Sources */,
+				2EAA54401A872481006EFE8D /* NSString+Html.m in Sources */,
 				2E7E8D891A85BE9D00390669 /* ViewController.m in Sources */,
+				2EAA54431A872C28006EFE8D /* HTMLEntityDecode.m in Sources */,
 				2E7E8D861A85BE9C00390669 /* AppDelegate.m in Sources */,
 				2E7E8DA81A85C08500390669 /* CitiesTableViewController.m in Sources */,
 				2E7E8D831A85BE9C00390669 /* main.m in Sources */,
